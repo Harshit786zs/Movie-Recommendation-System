@@ -1,7 +1,8 @@
-# 🎬 Movie Recommendation System
+## Preview
+
+![Movie Recommender](assets/Screenshot%202026-06-07%20124940.png)
 
 A content-based movie recommendation system built using Python and Machine Learning. The application recommends movies similar to the user's selection using cosine similarity and metadata from the TMDB dataset.
-
 ## Features
 
 - Recommend similar movies instantly
@@ -29,7 +30,10 @@ A content-based movie recommendation system built using Python and Machine Learn
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
 ## Note
 
-The similarity.pkl file is excluded from GitHub because it exceeds GitHub's file size limit.
+The `similarity.pkl` file is excluded from GitHub because it exceeds GitHub's file size limit. Generate it locally before running the application.
+
+## Author
+
+Harshit Choudhary
